@@ -1,24 +1,15 @@
 ﻿#include <cstdio>
 #include <tuple>
 #include <iostream>
+#include <chrono>
+#include <coroutine>
 #include <thread>
 #include <asio.hpp>
-#include <asio/co_spawn.hpp>
-#include <asio/detached.hpp>
-#include <asio/io_context.hpp>
-#include <asio/ip/tcp.hpp>
-#include <asio/signal_set.hpp>
-#include <asio/write.hpp>
-#include <asio/experimental/as_tuple.hpp>
+#include <asio/basic_waitable_timer.hpp>
 #include <asio/experimental/awaitable_operators.hpp>
 
-using asio::ip::tcp;
-using asio::awaitable;
-using asio::ip::address_v4;
-using asio::co_spawn;
-using asio::detached;
-using asio::use_awaitable;
-using asio::experimental::as_tuple;
+using namespace asio;
+using namespace asio::ip;
 using namespace asio::experimental;
 using namespace asio::experimental::awaitable_operators;
 namespace this_coro = asio::this_coro;
@@ -26,7 +17,7 @@ namespace this_coro = asio::this_coro;
 awaitable<void> corosleep(int ms)
 {
 	asio::steady_timer timer(co_await this_coro::executor);
-	timer.expires_from_now(std::chrono::milliseconds(ms));
+	timer.expires_after(std::chrono::milliseconds(ms));
 	auto [ec] = co_await timer.async_wait(as_tuple(use_awaitable));
 }
 awaitable<void> work(int num, int port)

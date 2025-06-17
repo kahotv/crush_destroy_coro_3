@@ -9,46 +9,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProxyServer", "ProxyServer\
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
-		Debug|ARM64 = Debug|ARM64
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|ARM = Release|ARM
-		Release|ARM64 = Release|ARM64
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|ARM.ActiveCfg = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|ARM.Build.0 = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|ARM64.ActiveCfg = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|ARM64.Build.0 = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|x64.ActiveCfg = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|x64.Build.0 = Debug|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|x86.ActiveCfg = Debug|Win32
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Debug|x86.Build.0 = Debug|Win32
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|ARM.ActiveCfg = Release|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|ARM.Build.0 = Release|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|ARM64.ActiveCfg = Release|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|ARM64.Build.0 = Release|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|x64.ActiveCfg = Release|x64
-		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|x64.Build.0 = Release|x64
 		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|x86.ActiveCfg = Release|Win32
 		{EDDAD61E-301A-467B-B6C6-59044E3F5A19}.Release|x86.Build.0 = Release|Win32
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|ARM.ActiveCfg = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|ARM.Build.0 = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|ARM64.ActiveCfg = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|ARM64.Build.0 = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|x64.ActiveCfg = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|x64.Build.0 = Debug|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|x86.ActiveCfg = Debug|Win32
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Debug|x86.Build.0 = Debug|Win32
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|ARM.ActiveCfg = Release|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|ARM.Build.0 = Release|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|ARM64.ActiveCfg = Release|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|ARM64.Build.0 = Release|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|x64.ActiveCfg = Release|x64
-		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|x64.Build.0 = Release|x64
 		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|x86.ActiveCfg = Release|Win32
 		{B43ABE94-37CE-4580-8C22-66A097459706}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection

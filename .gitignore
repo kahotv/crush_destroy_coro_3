@@ -1,0 +1,6 @@
+*.ncb
+*.aps
+.vs
+Debug
+Release
+output
